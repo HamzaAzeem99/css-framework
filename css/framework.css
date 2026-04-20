@@ -1,0 +1,58 @@
+:root { /*Text and Bg Colors  */
+    --blue: #0165fc;
+    --white: #ffffff;
+    --black: #000000;
+    --dracula: darkorange;
+    --vampire: #f70202;
+    --victory: #0bda51;
+    --yellow: #fffd01;
+}
+
+/* Text Color Classes */
+.txt-blue {
+    color: var(--blue);
+}
+
+.txt-white {
+    color: var(--white);
+}
+.txt-black {
+    color: var(--black);
+}
+.txt-dracula {
+    color: var(--dracula);
+}
+.txt-vampire {
+    color: var(--vampire);
+}
+.txt-victory {
+    color: var(--victory);
+}
+.txt-yellow {
+    color: var(--yellow);
+}
+
+/* Background Color Classes */
+.bg-blue {
+    background-color: var(--blue);
+}
+
+.bg-white {
+    background-color: var(--white);
+}
+.bg-black {
+    background-color: var(--black);
+}
+.bg-dracula {
+    background-color: var(--dracula);
+}
+.bg-vampire {
+    background-color: var(--vampire);
+}
+.bg-victory {
+    background-color: var(--victory);
+}
+.bg-yellow {
+    background-color: var(--yellow);
+}
+
