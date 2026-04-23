@@ -1,6 +1,18 @@
-:root { /*Text and Bg Colors  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+:root {
+    /*Text and Bg Colors  */
     --blue: #0165fc;
-    --white: #ffffff;
+    --white: #F8F9FA;
     --black: #000000;
     --dracula: darkorange;
     --vampire: #f70202;
@@ -16,18 +28,23 @@
 .txt-white {
     color: var(--white);
 }
+
 .txt-black {
     color: var(--black);
 }
+
 .txt-dracula {
     color: var(--dracula);
 }
+
 .txt-vampire {
     color: var(--vampire);
 }
+
 .txt-victory {
     color: var(--victory);
 }
+
 .txt-yellow {
     color: var(--yellow);
 }
@@ -40,19 +57,336 @@
 .bg-white {
     background-color: var(--white);
 }
+
 .bg-black {
     background-color: var(--black);
 }
+
 .bg-dracula {
     background-color: var(--dracula);
 }
+
 .bg-vampire {
     background-color: var(--vampire);
 }
+
 .bg-victory {
     background-color: var(--victory);
 }
+
 .bg-yellow {
     background-color: var(--yellow);
 }
 
+/* Fonts and Text Such as align, weight, family, size etc */
+
+/* Aligns */
+.txt-center {
+    text-align: center;
+}
+
+.txt-left {
+    text-align: left;
+}
+
+.txt-right {
+    text-align: right;
+}
+
+.txt-justify {
+    text-align: justify;
+}
+
+/* Extra styling */
+.txt-bold {
+    font-weight: bold;
+}
+
+.font-serif {
+    font-family: sans-serif;
+}
+
+.font-monospace {
+    font-family: monospace;
+}
+
+.li-st-none {
+    list-style: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+.txt-dec-none {
+    text-decoration: none;
+}
+
+/* Font sizes */
+.font-sm {
+    font-size: 1vw;
+}
+
+.font-md {
+    font-size: 1.5vw;
+}
+
+.font-lg {
+    font-size: 2vw;
+}
+
+.font-xlg {
+    font-size: 3vw;
+}
+
+
+/* Width and height */
+.width-5 {
+    width: 5vw;
+}
+
+.width-10 {
+    width: 10vw;
+}
+
+.width-20 {
+    width: 20vw;
+}
+
+.width-30 {
+    width: 30vw;
+}
+
+.width-40 {
+    width: 40vw;
+}
+
+.width-50 {
+    width: 50vw;
+}
+
+.width-60 {
+    width: 60vw;
+}
+
+.width-70 {
+    width: 70vw;
+}
+
+.width-80 {
+    width: 80vw;
+}
+
+.width-90 {
+    width: 90vw;
+}
+
+.width-100 {
+    width: 100vw;
+}
+
+.height-5 {
+    height: 5vh;
+}
+
+.height-10 {
+    height: 10vh;
+}
+
+.height-20 {
+    height: 20vh;
+}
+
+.height-30 {
+    height: 30vh;
+}
+
+.height-40 {
+    height: 40vh;
+}
+
+.height-50 {
+    height: 50vh;
+}
+
+.height-60 {
+    height: 60vh;
+}
+
+.height-70 {
+    height: 70vh;
+}
+
+.height-80 {
+    height: 80vh;
+}
+
+.height-90 {
+    height: 90vh;
+}
+
+.height-100 {
+    height: 100vh;
+}
+
+/* Flex Box */
+.d-f {
+    display: flex;
+}
+
+.align-center {
+    align-items: center;
+}
+
+/* Justify */
+.jc-c {
+    justify-content: center;
+}
+
+.jc-sb {
+    justify-content: space-between;
+}
+
+.jc-sa {
+    justify-content: space-around;
+}
+
+.jc-se {
+    justify-content: space-evenly;
+}
+
+/* Gap Display */
+
+.gap-1 {
+    gap: 1vw;
+}
+
+.gap-2 {
+    gap: 2vw;
+}
+
+.gap-3 {
+    gap: 3vw;
+}
+
+.gap-4 {
+    gap: 4vw;
+}
+
+.gap-5 {
+    gap: 5vw;
+}
+
+.gap-6 {
+    gap: 6vw;
+}
+
+.gap-7 {
+    gap: 7vw;
+}
+
+.gap-8 {
+    gap: 8vw;
+}
+
+.gap-9 {
+    gap: 9vw;
+}
+
+.gap-10 {
+    gap: 10vw;
+}
+
+/* Padding */
+.p-1{
+    padding: 1vw;
+}
+.p-2{
+    padding: 2vw;
+}
+
+/* Button styling */
+
+/* .btn-black {
+    padding: 1.4vh 2vw;
+
+    border: none;
+    border-radius: 10px;
+    background-color: var(--black);
+    box-shadow: 0px 0px 20px var(--black);
+}
+
+.btn-dracula {
+    padding: 1.4vh 2vw;
+
+    border: none;
+    border-radius: 10px;
+    background-color: var(--dracula);
+    box-shadow: 0px 0px 20px var(--dracula);
+}
+
+.btn-white {
+    padding: 1.4vh 2vw;
+
+    border: none;
+    border-radius: 10px;
+    background-color: var(--white);
+    box-shadow: 0px 0px 20px var(--white);
+}
+
+.btn-vampire {
+    padding: 1.4vh 2vw;
+
+    border: none;
+    border-radius: 10px;
+    background-color: var(--vampire);
+    box-shadow: 0px 0px 20px var(--vampire);
+}
+
+.btn-blue {
+    padding: 1.4vh 2vw;
+
+    border: none;
+    border-radius: 10px;
+    background-color: var(--blue);
+    box-shadow: 0px 0px 20px var(--blue);
+}
+
+.btn-yellow {
+    padding: 1.4vh 2vw;
+
+    border: none;
+    border-radius: 10px;
+    background-color: var(--yellow);
+    box-shadow: 0px 0px 20px var(--yellow);
+}
+
+.btn-victory {
+    padding: 1.4vh 2vw;
+    border: none;
+    border-radius: 10px;
+    background-color: var(--victory);
+    box-shadow: 0px 0px 20px var(--victory);
+} */
+
+/* Mobile Responsive classes    425 to 320*/
+
+@media screen and (max-width:425px) {
+
+    .mobile-font-sm {
+        font-size: 2vw;
+    }
+
+    .mobile-font-md {
+        font-size: 3vw;
+    }
+
+    .mobile-font-lg {
+        font-size: 4vw;
+    }
+
+    .mobile-font-xlg {
+        font-size: 5vw;
+    }
+
+}
